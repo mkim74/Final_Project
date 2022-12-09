@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Final Project</title>
-
+<title>Final Project - About Me</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-<div id="myDiv">
-<p>
-   This is a paragraph inside a div.
-</p>
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<div class="topnav" id="myTopnav">
+</a>
 </div>
+<section class="home" id="home">
+<div class="inner">
+<p><font size="+10">About Me</font></p>
+</div>
+</section>
+<div class="inner">
+<h1>Introduction</h1>
+<p>
+Hello, my name is Daniel Kim and I'm currently a sophomore at Mizzou studying
+information technology (previously computer scinece). After being involved in the programming
+world for a while now, I have acquired many coding languages including <b>Python, C, HTML and JavaScript</b>. 
+I made my commitment into IT because I've always wanted to learn how to make
+a website, like what I'm doing right now, and what better way to do that than to take 
+courses that will help me further enhance those skills. I've always wondered how our future
+world will change with all these new technologies such as self-driving cars, face recognition, virtual
+reality, and more ideas related to artificial intelligence. I'm super excited to say that I will
+not only be a part of this future, but I will be one of the many who will change this future. <br>
+</p>
+</div>
+<h1>Skills</h1>
+<div>
+<ul>
+<li>Volleyball</li>
+</ul>
+<ul>
+<li>Guitar</li>
+</ul>
+<ul>
+<li>League of Legends</li>
+</ul>
+<ul>
+<li>Rubik's Cube</li>
+</ul>
+<ul>
+<li>Languages</li>
+</div>
+<div class="inner">
+<div>
+</a>
+</div>
+<h1>For More Information</h1>
+<div class="contact-links">
+<a href="mailto:dmk10042002@gmail.com"><i class="fas fa-at"></i> E-mail</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="tel:3143662478"><i class="fas fa-mobile-alt"></i> Phone</a>
+</div>
+</div>
+<footer class="footer">
+<p>
+<marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="alternate">Created by
+<span>Daniel Kim</span>.</marquee>
+</p>
+</footer>
+<script>
+function myFunction() {
+var x = document.getElementById("myTopnav");
+if (x.className === "topnav") {
+x.className += " responsive";
+} else {
+x.className = "topnav";
+}
+}
+</script>
 </body>
-
 </html>
